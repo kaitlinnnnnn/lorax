@@ -1,4 +1,4 @@
-Dr. Seuss' The Lorax
+import pyautogui script = "Dr. Seuss' The Lorax
 Screenplay by Cinco Paul & Ken Daurio
 Based on the Book by Dr. Seuss
 INT: THEATER - DAY
@@ -2672,4 +2672,8 @@ The Old Once-ler kneels down and gives him a hug.
 LORAX (CONT’D) By the way, nice mustache.
 FADE TO BLACK.
 TITLE CARD: “Unless someone like you cares a whole awful lot, nothing is going to get better. It’s not.” -- Dr. Seuss
-FADE TO BLACK. CREDIT BEGIN:
+FADE TO BLACK. CREDIT BEGIN:  "
+             for x in script.split(): 
+             pyautogui.write(x) 
+             
+             pyautogui.press("enter")
